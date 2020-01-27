@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nav-rest-api/static/css/main.2a83c7c0.chunk.css",
+    "main.js": "/nav-rest-api/static/js/main.aa10e1c9.chunk.js",
+    "main.js.map": "/nav-rest-api/static/js/main.aa10e1c9.chunk.js.map",
+    "runtime-main.js": "/nav-rest-api/static/js/runtime-main.1b129cd7.js",
+    "runtime-main.js.map": "/nav-rest-api/static/js/runtime-main.1b129cd7.js.map",
+    "static/js/2.0c697dce.chunk.js": "/nav-rest-api/static/js/2.0c697dce.chunk.js",
+    "static/js/2.0c697dce.chunk.js.map": "/nav-rest-api/static/js/2.0c697dce.chunk.js.map",
+    "index.html": "/nav-rest-api/index.html",
+    "precache-manifest.0eb7ddd2ecc73716432b92b2ce97fabf.js": "/nav-rest-api/precache-manifest.0eb7ddd2ecc73716432b92b2ce97fabf.js",
+    "service-worker.js": "/nav-rest-api/service-worker.js",
+    "static/css/main.2a83c7c0.chunk.css.map": "/nav-rest-api/static/css/main.2a83c7c0.chunk.css.map",
+    "static/js/2.0c697dce.chunk.js.LICENSE": "/nav-rest-api/static/js/2.0c697dce.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b129cd7.js",
+    "static/js/2.0c697dce.chunk.js",
+    "static/css/main.2a83c7c0.chunk.css",
+    "static/js/main.aa10e1c9.chunk.js"
+  ]
+}
