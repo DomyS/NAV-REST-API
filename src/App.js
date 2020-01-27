@@ -176,7 +176,7 @@ class App extends Component {
                     <button
                       className="btn btn-outline-info"
                       id={index}
-                      value={item.jobtitle}
+                      value={item.title}
                       onClick={this.handleAileClick}
                     >
                       Lagre
