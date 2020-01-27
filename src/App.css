@@ -1,38 +1,104 @@
-.App {
+body {
+  background-color: rgb(82, 82, 82);
+}
+.heading2 {
+  color: lightgoldenrodyellow;
   text-align: center;
+  margin: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.buttons {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
+  height: 20vh;
 }
 
-.App-link {
-  color: #61dafb;
+.buttons button {
+  margin: 5px;
+}
+.custom-modal {
+  width: 100vw;
+  height: 100vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.savedJobs {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.savedModal {
+  position: relative;
+  top: 0;
+  float: right;
+  margin-right: 7%;
+}
+
+.cartList {
+  display: flex;
+}
+
+/* responsive */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .savedModal {
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 4%;
   }
-  to {
-    transform: rotate(360deg);
+  .heading2 {
+    margin-left: 35%;
+    font-size: 25px;
+  }
+  .cardRight {
+    text-align: center;
+  }
+  h5 {
+    font-size: 22px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .savedModal {
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 4%;
+  }
+  .cardRight {
+    margin-top: 2%;
+    text-align: center;
+  }
+  h5 {
+    font-size: 18px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .savedModal {
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 4%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .savedModal {
+    margin-right: 3%;
+    margin-top: 4%;
+  }
+  .cardRight {
+    margin-top: 3%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .cardRight {
+    margin-top: 1%;
   }
 }
